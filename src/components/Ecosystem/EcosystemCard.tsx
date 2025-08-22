@@ -11,7 +11,6 @@ export type EcosystemCardType =
   | 'flash'
   | 'depositDelegator_v4'
   | 'tally'
-  | 'treasury'
   | 'dune_v4'
   | 'dune_v5'
   | 'cabanaLists'
@@ -19,10 +18,10 @@ export type EcosystemCardType =
   | 'cabanaSwaps'
   | 'prizeCalc'
   | 'migrationApp'
-  | 'ptlist'
   | 'superform'
   | 'wineth'
   | 'yearn'
+  | 'world'
 
 interface EcosystemCardProps {
   type: EcosystemCardType
@@ -99,14 +98,6 @@ export const EcosystemCard = (props: EcosystemCardProps) => {
       tags: ['governance'],
       description: t('tallyCardDescription')
     },
-    treasury: {
-      href: LINKS.treasury,
-      iconSrc: '/pooltogether-token-logo.svg',
-      title: t('treasuryCardTitle'),
-      author: 'PoolTogether Inc.',
-      tags: ['governance'],
-      description: t('treasuryCardDescription')
-    },
     dune_v4: {
       href: LINKS.dune_v4,
       iconSrc: '/icons/dune.svg',
@@ -163,14 +154,6 @@ export const EcosystemCard = (props: EcosystemCardProps) => {
       tags: ['ui', 'v3', 'v4'],
       description: t('migrationAppCardDescription')
     },
-    ptlist: {
-      href: 'https://ptlist.xyz/',
-      iconSrc: '/icons/ptlistIcon.svg',
-      title: t('ptlistCardTitle'),
-      author: 'Ncookie & Trmid',
-      tags: ['extensions', 'v5'],
-      description: t('ptlistCardDescription')
-    },
     superform: {
       href: 'https://app.superform.xyz/protocol/pooltogether',
       iconSrc: '/icons/superformIcon.png',
@@ -194,6 +177,14 @@ export const EcosystemCard = (props: EcosystemCardProps) => {
       author: 'Yearn Team',
       tags: ['ui', 'v5'],
       description: t('yearnCardDescription')
+    },
+    world: {
+      href: 'https://world.org/ecosystem/app_85f4c411dc00aadabc96cce7b3a77219',
+      iconSrc: '/icons/cabanaIcon.svg',
+      title: t('worldCardTitle'),
+      author: 'G9 Software Inc.',
+      tags: ['ui', 'v5'],
+      description: t('worldCardDescription')
     }
   }
 

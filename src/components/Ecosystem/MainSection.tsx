@@ -46,17 +46,25 @@ const CardRows = (props: CardRowsProps) => {
       <EcosystemCards
         iconSrc='/icons/addIcon.svg'
         title={t('interfacesSectionTitle')}
-        cards={['cabanaApp', 'pooltimeApp', 'superform', 'wineth', 'yearn', 'migrationApp']}
+        cards={[
+          'cabanaApp',
+          'pooltimeApp',
+          'superform',
+          'wineth',
+          'yearn',
+          'world',
+          'migrationApp'
+        ]}
       />
       <EcosystemCards
         iconSrc='/icons/puzzleIcon.svg'
         title={t('extensionsSectionTitle')}
-        cards={['cabanaLists', 'rewards', 'ptlist']}
+        cards={['cabanaLists', 'rewards']}
       />
       <EcosystemCards
         iconSrc='/icons/presentationIcon.svg'
         title={t('toolsSectionTitle')}
-        cards={['treasury', 'tally', 'cabanalytics']}
+        cards={['tally', 'cabanalytics']}
       />
     </div>
   )

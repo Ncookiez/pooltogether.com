@@ -106,7 +106,9 @@
     "winethCardTitle": "WinETH",
     "winethCardDescription": "Contribute to a good cause while saving and winning with PoolTogether.",
     "yearnCardTitle": "Yearn",
-    "yearnCardDescription": "Win prizes by saving with your favorite yearn strategies."
+    "yearnCardDescription": "Win prizes by saving with your favorite yearn strategies.",
+    "worldCardTitle": "World Mini App",
+    "worldCardDescription": "Prize savings on a World Mini App."
   },
   "Community": {
     "dipInThePool": "Take a <purple-400>dip</purple-400> in the pool",

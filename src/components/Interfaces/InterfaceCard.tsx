@@ -35,7 +35,7 @@ export const InterfaceCard = (props: InterfaceCardProps) => {
       title: t('cabanaAppCardTitle')
     },
     pooltimeApp: {
-      href: 'https://pooltime.app/',
+      href: 'https://pooltime.xyz/',
       iconSrc: '/icons/pooltimeIcon.svg',
       title: t('pooltimeAppCardTitle')
     },

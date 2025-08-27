@@ -43,7 +43,7 @@ export const EcosystemCard = (props: EcosystemCardProps) => {
       description: t('cabanaAppCardDescription')
     },
     pooltimeApp: {
-      href: 'https://pooltime.app/',
+      href: 'https://pooltime.xyz/',
       iconSrc: '/icons/pooltimeIcon.svg',
       title: t('pooltimeAppCardTitle'),
       author: 'PoolTime Team',

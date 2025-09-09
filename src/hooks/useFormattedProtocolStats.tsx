@@ -1,9 +1,9 @@
 import { formatNumberForDisplay } from '@shared/utilities'
 import { useTranslations } from 'next-intl'
-import { useProtocolStats } from 'src/serverAtoms'
+import { useProtocolStats } from './useProtocolStats'
 
 export const useFormattedProtocolStats = () => {
-  const protocolStats = useProtocolStats()
+  const { data: protocolStats } = useProtocolStats()
 
   const t = useTranslations('Common')
 

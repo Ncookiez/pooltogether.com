@@ -14,6 +14,8 @@ export const StatsSection = (props: StatsSection) => {
 
   const { totalPrizes, tvl, uniqueWallets } = useFormattedProtocolStats()
 
+  if (!totalPrizes || !tvl || !uniqueWallets) return <></>
+
   return (
     <section
       className={classNames(

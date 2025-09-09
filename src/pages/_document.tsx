@@ -19,7 +19,7 @@ class MyDocument extends Document {
     const title = 'PoolTogether'
     const description = 'The permissionless protocol for saving and winning.'
     const keywords =
-      'ethereum optimism polygon avalanche prize savings win save protocol blockchain'
+      'ethereum optimism base arbitrum scroll gnosis world prize savings win save protocol blockchain'
     const twitterHandle = '@PoolTogether_'
 
     return (

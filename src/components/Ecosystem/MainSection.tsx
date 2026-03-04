@@ -49,6 +49,7 @@ const CardRows = (props: CardRowsProps) => {
         cards={[
           'cabanaApp',
           'pooltimeApp',
+          'shinjo',
           'superform',
           'wineth',
           'yearn',

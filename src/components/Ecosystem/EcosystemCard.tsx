@@ -22,6 +22,7 @@ export type EcosystemCardType =
   | 'wineth'
   | 'yearn'
   | 'world'
+  | 'shinjo'
 
 interface EcosystemCardProps {
   type: EcosystemCardType
@@ -185,6 +186,14 @@ export const EcosystemCard = (props: EcosystemCardProps) => {
       author: 'G9 Software Inc.',
       tags: ['ui', 'v5'],
       description: t('worldCardDescription')
+    },
+    shinjo: {
+      href: 'https://shinjo.app/',
+      iconSrc: '/icons/shinjoIcon.svg',
+      title: t('shinjoCardTitle'),
+      author: 'Shinjo Team',
+      tags: ['ui', 'v5'],
+      description: t('shinjoCardDescription')
     }
   }
 

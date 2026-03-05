@@ -14,6 +14,7 @@ export type InterfaceCardType =
   | 'wineth'
   | 'yearn'
   | 'world'
+  | 'shinjo'
 
 interface InterfaceCardProps {
   type: InterfaceCardType
@@ -73,6 +74,11 @@ export const InterfaceCard = (props: InterfaceCardProps) => {
       href: 'https://world.org/ecosystem/app_85f4c411dc00aadabc96cce7b3a77219',
       iconSrc: '/icons/cabanaIcon.svg',
       title: t('worldCardTitle')
+    },
+    shinjo: {
+      href: 'https://shinjo.app/',
+      iconSrc: '/icons/shinjoIcon.svg',
+      title: t('shinjoCardTitle')
     }
   }
 
